@@ -1,0 +1,497 @@
+@charset "UTF-8";
+
+.logo_detail_menu_wrap {
+  background-color: #F8F8F8;
+  width: 100%;
+  height: 225px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo_detail_menu_wrap .logo_detail_menu_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo_detail_menu_wrap .logo_detail_menu_box p {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.6rem;
+}
+
+.logoDetail__page_wrap {
+  width: 100%;
+  height: 74px;
+  background-color: #EDEDED;
+}
+
+.logoDetail__page_wrap .logoDetail__page_box {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.logoDetail__page_wrap .logoDetail__page_box ul {
+  line-height: 74px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logoDetail__page_wrap .logoDetail__page_box ul li {
+  list-style-type: none;
+  font-size: 1.6rem;
+  margin-left: 10px;
+}
+
+.logoDetail__page_wrap .logoDetail__page_box ul li:first-child {
+  margin-left: 0;
+}
+
+.logoDetail__page_wrap .logoDetail__page_box ul li a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.logoDetail__page_wrap .logoDetail__page_box ul li a p {
+  color: #333333;
+  font-size: 1.6rem;
+  height: 52px;
+  border-bottom: 1px solid #333333;
+}
+
+.logo__detail__main__wrap {
+  width: 100%;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__title {
+  font-size: 2.7rem;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__idrepBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__idrepBox .logo__detail__main__idbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #707070;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__idrepBox .logo__detail__main__idbox p {
+  color: #707070;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__idrepBox .logo__detail__main__idbox .logo__detail__main__idtemp {
+  margin-right: 5px;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__idrepBox .loogo__detail__main__reportBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #BEBEBE;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__idrepBox .loogo__detail__main__reportBox img {
+  margin-right: 10px;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__idrepBox .loogo__detail__main__reportBox p {
+  color: #707070;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__comtent {
+  height: 680px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__comtent .logo__detail__main__left {
+  width: 568px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__comtent .logo__detail__main__left img.logo__detail__main__img {
+  width: 568px;
+  height: 568px;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__comtent .logo__detail__main__left .logo__detail__main_sampleimg ul {
+  width: 568px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 12px;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__comtent .logo__detail__main__left .logo__detail__main_sampleimg ul li {
+  list-style: none;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__comtent .logo__detail__main__left .logo__detail__main_sampleimg ul li div {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__comtent .logo__detail__main__right {
+  margin-left: 42px;
+  width: 590px;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__comtent .logo__detail__main__right ul {
+  height: 200px;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__comtent .logo__detail__main__right ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 31px;
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__comtent .logo__detail__main__right ul li .logo__detail__main__selectbox {
+  display: block;
+  width: 85px;
+  height: 31px;
+  font-size: 1.6rem;
+  background-color: #707070;
+  text-align: center;
+  line-height: 31px;
+  color: #ffffff;
+  margin-right: 15px;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__comtent .logo__detail__main__right ul li .logo__detail__main__selecttext {
+  height: 23px;
+  margin: auto 0;
+  display: block;
+  line-height: 23px;
+  font-size: 1.6rem;
+  color: #333333;
+  border-bottom: 1px solid #333333;
+  margin-right: 15px;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__comtent .logo__detail__main__right .logo__detail__main__conceptBox {
+  height: 160px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__comtent .logo__detail__main__right .logo__detail__main__conceptBox p.logo__detail__main__conceptTitle {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__comtent .logo__detail__main__right .logo__detail__main__conceptBox p.logo__detail__main__concepyText {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  margin-top: 10px;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__comtent .logo__detail__main__right .logo__detail__main__priceBox {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__comtent .logo__detail__main__right .logo__detail__main__priceBox .logo__detail__main__price {
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__comtent .logo__detail__main__right .logo__detail__main__priceBox .logo__detail__main__tax {
+  font-size: 2.4rem;
+  margin-left: 10px;
+  font-weight: normal;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__comtent .logo__detail__main__right a {
+  text-decoration: none;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__comtent .logo__detail__main__right a .logo__detail__main__buybtn {
+  height: 95px;
+  font-size: 1.6rem;
+  color: white;
+  text-align: center;
+  line-height: 95px;
+  background-color: #F2A679;
+}
+
+.logo__detail__main__wrap .logo__detail__main__box .logo__detail__main__comtent .logo__detail__main__right a .logo__detail__main__favbtn {
+  height: 70px;
+  font-size: 1.6rem;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+  background-color: #F279AC;
+  margin-top: 25px;
+}
+
+.logo__detail__designer__wrap {
+  margin-top: 100px;
+}
+
+.logo__detail__designer__wrap h2 {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.logo__detail__designer__wrap .logo__detail__designer__box {
+  width: 1200px;
+  height: 316px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FCFCFC;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.logo__detail__designer__wrap .logo__detail__designer__box .logo__detail__designer__leftBox {
+  width: 250px;
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo__detail__designer__wrap .logo__detail__designer__box .logo__detail__designer__leftBox img {
+  width: 193px;
+  height: 193px;
+  border-radius: 50%;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.logo__detail__designer__wrap .logo__detail__designer__box .logo__detail__designer__rightBox {
+  width: 820px;
+  height: 200px;
+  margin: 0 50px 0 30px;
+}
+
+.logo__detail__designer__wrap .logo__detail__designer__box .logo__detail__designer__rightBox .logo__detail__designer__name {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.logo__detail__designer__wrap .logo__detail__designer__box .logo__detail__designer__rightBox .logo__detail__designer__goodatBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.logo__detail__designer__wrap .logo__detail__designer__box .logo__detail__designer__rightBox .logo__detail__designer__goodatBox .logo__detail__designer__goodat {
+  font-size: 1.6rem;
+}
+
+.logo__detail__designer__wrap .logo__detail__designer__box .logo__detail__designer__rightBox .logo__detail__designer__goodatBox .logo__detail__designer__goodatText {
+  font-size: 1.6rem;
+  margin-left: 10px;
+}
+
+.logo__detail__designer__wrap .logo__detail__designer__box .logo__detail__designer__rightBox .logo__detail__designer__text {
+  font-size: 1.6rem;
+  margin-top: 20px;
+  line-height: 2.5rem;
+}
+
+.index__logobox__container {
+  width: 1200px;
+  margin: 70px auto 30px auto;
+}
+
+.index__logobox__container h2 {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.index__logobox__container .index__logobox__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.index__logobox__container .index__logobox__wrap a {
+  position: relative;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.index__logobox__container .index__logobox__wrap a .index__logobox {
+  width: 200px;
+  height: 200px;
+}
+
+.index__logobox__container .index__logobox__wrap a .index__logobox img {
+  position: relative;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  display: block;
+  width: 180px;
+  height: 180px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.index__logobox__container .index__logobox__wrap a .index__logobox img:hover {
+  width: 200px;
+  height: 200px;
+}
+
+.index__logobox__container .index__logobox__wrap a .index__logo__text {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.index__logobox__container .index__logobox__wrap a .index__logo__text p {
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: bold;
+  color: #333333;
+}
+
+.index__logobox__container .index__logobox__wrap a .index__logo__text p:last-child {
+  font-size: 1.6rem;
+  color: #BEBEBE;
+  font-weight: normal;
+}
+
+.index__logobox__container .index__logobox__wrap a:hover .index__logo__text {
+  display: block;
+  -webkit-animation-name: logotext;
+          animation-name: logotext;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.index__logobox__container .logo__detail__otherlogo_morebtn {
+  display: block;
+  width: 235px;
+  height: 60px;
+  background-color: #F2A679;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+  font-size: 1.6rem;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+@-webkit-keyframes logotext {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-60px);
+            transform: translateY(-60px);
+  }
+}
+
+@keyframes logotext {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-60px);
+            transform: translateY(-60px);
+  }
+}
+
+.index_propaganada_container {
+  width: 1200px;
+  margin: 100px auto 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.index_propaganada_container .index_propaganada_item {
+  width: 569px;
+  height: 180px;
+}
